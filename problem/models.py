@@ -20,10 +20,13 @@ class ProblemRuleType(Choices):
 
 
 class ProblemDifficulty(object):
-    High = "High"
-    Mid = "Mid"
-    Low = "Low"
-
+    L1 = "L1"
+    L2 = "L2"
+    L3 = "L3"
+    L4 = "L4"
+    L5 = "L5"
+    L6 = "L6"
+    L7 = "L7"
 
 class ProblemIOMode(Choices):
     standard = "Standard IO"
